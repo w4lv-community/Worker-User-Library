@@ -28,7 +28,7 @@ You can add these Workers to your project using the **Worker User Library** tool
    - The folders are organized by the version of LabVIEW that the Workers were created in. Eg. **LabVIEW 2017**. These can therefore be used in later versions of LabVIEW as well.
    - You only need the `LabVIEW_20XX` folder containing the Workers and/or Worker libraries.
 
-2. **Open LabVIEW** and go to the **Workers Tools Menu**.
+2. Assuming that **Workers 5.0** is installed into LabVIEW, **Open LabVIEW** and go to the **Workers Tools Menu**.
 
 3. Launch the **Worker User Library** tool.
 
