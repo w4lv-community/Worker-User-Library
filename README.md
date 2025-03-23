@@ -1,4 +1,4 @@
-# 🧰 Worker-User-Library
+# Worker-User-Library
 
 Welcome to the **Worker User Library**—a growing collection of reusable Workers designed to support and accelerate development with the **Workers for LabVIEW** framework.
 
