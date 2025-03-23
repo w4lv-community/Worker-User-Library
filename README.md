@@ -1,8 +1,8 @@
-# Worker-User-Library
+# 🧰 Worker-User-Library
 
 Welcome to the **Worker User Library**—a growing collection of reusable Workers designed to support and accelerate development with the **Workers for LabVIEW** framework.
 
-Each Worker in this repository provides useful functionality that can be dynamically loaded into your Workers applications and communicated with via their standardized Public APIs.
+Each Worker in this repository provides useful functionality that can be dynamically loaded into your Workers applications and communicated with via their standardized **Public APIs**.
 
 ---
 
@@ -23,22 +23,23 @@ You can add these Workers to your project using the **Worker User Library** tool
 
 ### 🔧 Step-by-Step Instructions
 
-1. Download or checkout the **Workers5.0 branch** of this repository to your PC.
+1. **Download or clone the `Workers5.0` branch** of this repository to your PC.  
    - Recommended path: `C:\Users\<YourName>\Documents\Worker-User-Library`
-   - The folders are organized by the version of LabVIEW that the Workers were created in. Eg. **LabVIEW 2017**. These can therefore be used in later versions of LabVIEW as well.
+   - The folders are organized by the version of LabVIEW the Workers were created in (e.g., `LabVIEW_2017`). These are forward-compatible with newer versions of LabVIEW.
    - You only need the `LabVIEW_20XX` folder containing the Workers and/or Worker libraries.
 
-2. Assuming that **Workers 5.0** is installed into LabVIEW, **Open LabVIEW** and go to the **Workers Tools Menu**.
+2. Assuming **Workers 5.0** is installed in LabVIEW, open LabVIEW and go to the **Workers Tools Menu**.
 
 3. Launch the **Worker User Library** tool.
 
 4. Click the ➕ button to add a new source folder.
 
-5. In the dialog that opens, **browse to the folder** where you downloaded this repository. E.g. `C:\Users\<YourName>\Documents\Worker-User-Library\LabVIEW_2017`
+5. In the dialog that opens, **browse to the folder** where you downloaded this repository.  
+   Example: `C:\Users\<YourName>\Documents\Worker-User-Library\LabVIEW_2017`
 
 6. Once added, the Workers in this folder will appear in the tool's **Items in User Library** list.
 
-7. From there, you can use the **Worker User Library** tool to easily **add a copy of any of these Workers or libraries into your project**.
+7. From there, use the **Worker User Library** tool to easily **add a copy of any Worker or library into your project**.
 
 ---
 
@@ -46,11 +47,11 @@ You can add these Workers to your project using the **Worker User Library** tool
 
 One of the Workers included is `Check All Worker Queues`, which allows you to monitor the size of each Worker’s message queue within an application—helpful for detecting bottlenecks and improving performance.
 
- 
-1. 𝗟𝗼𝗮𝗱 𝗶𝘁 𝗱𝘆𝗻𝗮𝗺𝗶𝗰𝗮𝗹𝗹𝘆 from another Worker using its 𝗣𝘂𝗯𝗹𝗶𝗰 𝗔𝗣𝗜.  
-2. Use its 𝗣𝘂𝗯𝗹𝗶𝗰 𝗔𝗣𝗜 to return a list of Workers and the number of elements in their queues.  
-3. 𝗩𝗶𝗲𝘄 𝗶𝘁𝘀 𝗳𝗿𝗼𝗻𝘁 𝗽𝗮𝗻𝗲𝗹 (as shown in the image) via the 𝗗𝗲𝗯𝘂𝗴 𝗦𝗲𝗿𝘃𝗲𝗿’𝘀 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 while running.
+You can:
 
+1. **Load it dynamically** from another Worker using its **Public API**.  
+2. Use its **Public API** to return a list of Workers and the number of elements in their queues.  
+3. **View its front panel** (as shown in the image) via the **Debug Server’s Application Manager** while running.
 
 ---
 
@@ -58,28 +59,31 @@ One of the Workers included is `Check All Worker Queues`, which allows you to mo
 
 Have a useful Worker you think others could benefit from? We welcome contributions!
 
-- Please ensure your Worker is **self-contained** and includes:
-  - No external dependencies. 
-  - A standardized **Workers 5.0** Public API containing either:
-	  - Public Requests
-	  - Public Request with Replies
-	  - Public Responses
-  - A *.ini* file in the root directly that contains the configuration data for your Worker or library. See Worker User Library [Config File Editor](https://docs.workersforlabview.io/workers-tools/workers-tools-menu/worker-user-library/config-file-editor) tool for how to create a Worker User Library *.ini* file.
+Please ensure your Worker is:
 
- To contribute, simply fork the repo and submit a pull request.
+- **Self-contained**, with no external dependencies.
+- Includes a standardized **Workers 5.0 Public API**, containing one or more of:
+  - Public Requests
+  - Public Requests with Replies
+  - Public Responses
+- Includes an `.ini` file in the root directory with configuration data for your Worker or library.
+
+📘 See the [Worker User Library Config File Editor](https://docs.workersforlabview.io/workers-tools/workers-tools-menu/worker-user-library/config-file-editor) documentation for details on how to create the required `.ini` file.
+
+To contribute, simply fork the repo and submit a pull request.
 
 ---
 
 ## 📚 Resources
 
-- 💬 [Workers Homepage](https://community.workersforlabview.io/)  
-- 🛠️ [Workers for LabVIEW Community GitHub Repo](https://github.com/w4lv-community)
+- 💬 [Workers for LabVIEW Homepage](https://community.workersforlabview.io/)  
+- 🛠️ [Workers for LabVIEW GitHub Organization](https://github.com/w4lv-community)
 
 ---
 
 ## 🙌 Acknowledgements
 
-Thanks to everyone who has contributed to this library and shared their solutions with the Workers for LabVIEW community!
+Thanks to everyone who has contributed to this library and shared their solutions with the **Workers for LabVIEW** community!
 
 ---
 
