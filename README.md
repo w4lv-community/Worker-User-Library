@@ -23,7 +23,7 @@ You can add these Workers to your project using the **Worker User Library** tool
 
 ### 🔧 Step-by-Step Instructions
 
-1. **Download the Workers5.0 branch of this repository** to your PC.
+1. Download or checkout the **Workers5.0 branch** of this repository to your PC.
    - Recommended path: `C:\Users\<YourName>\Documents\Worker-User-Library`
    - The folders are organized by the version of LabVIEW that the Workers were created in. Eg. **LabVIEW 2017**. These can therefore be used in later versions of LabVIEW as well.
    - You only need the `LabVIEW_20XX` folder containing the Workers and/or Worker libraries.
