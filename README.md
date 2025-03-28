@@ -1,6 +1,6 @@
 # Worker-User-Library
 
-Welcome to the **Worker User Library**—a growing collection of reusable Workers designed to support and accelerate development with the **Workers for LabVIEW** framework.
+Welcome to the **Worker User Library** on **GitHub**—a growing collection of reusable Workers designed to support and accelerate development with the **Workers for LabVIEW** framework.
 
 Each Worker in this repository provides useful functionality that can be dynamically loaded into your Workers applications and communicated with via their standardized **Public APIs**.
 
@@ -62,10 +62,13 @@ Have a useful Worker you think others could benefit from? We welcome contributio
 Please ensure your Worker is:
 
 - **Self-contained**, with no external dependencies.
-- Includes a standardized **Workers 5.0 Public API**, containing one or more of:
+- All LabVIEW code is contained within a folder with the either your own name or the name of your business/company. This folder is to exist within the root directory. **(See current Worker User Library repository for correct folder structure).**
+- Includes a standardized **Workers 5.0 Public API** (creating using the Workers 5.0 Public API Builder tool), containing one or more of:
   - Public Requests
   - Public Requests with Replies
   - Public Responses
+  - a dynamically load Worker VI (i.e. dlw_[name of Worker].vi)
+- Includes a Readme.md file in the folder that contains your Worker or library or Workers, allowing other developers to obtain an overview of the purpose and functionality of the Worker.
 - Includes an `.ini` file in the root directory with configuration data for your Worker or library.
 
 📘 See the [Worker User Library Config File Editor](https://docs.workersforlabview.io/workers-tools/workers-tools-menu/worker-user-library/config-file-editor) documentation for details on how to create the required `.ini` file.
