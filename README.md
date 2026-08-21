@@ -11,7 +11,7 @@ Each Worker in this repository provides useful functionality that can be dynamic
 This repository includes a curated set of Workers contributed by the community or created in response to developer needs. Each Worker is:
 
 - Self-contained and easy to add into a project.
-- Compatible with **Workers 5.0**.
+- Compatible with **Workers 5.1**.
 - Designed to be **modular** and **reusable**.
 - Documented with a description of its purpose and usage.
 
@@ -19,16 +19,16 @@ This repository includes a curated set of Workers contributed by the community o
 
 ## 🚀 How to Use These Workers
 
-You can add these Workers to your project using the **Worker User Library** tool included in **Workers 5.0**.
+You can add these Workers to your project using the **Worker User Library** tool included in **Workers 5.1**.
 
 ### 🔧 Step-by-Step Instructions
 
-1. **Download or clone the `Workers5.0` branch** of this repository to your PC.  
+1. **Download or clone the `Workers5.1` branch** of this repository to your PC.  
    - Recommended path: `C:\Users\<YourName>\Documents\Worker-User-Library`
    - The folders are organized by the version of LabVIEW the Workers were created in (e.g., `LabVIEW_2017`). These are forward-compatible with newer versions of LabVIEW.
    - You only need the `LabVIEW_20XX` folder containing the Workers and/or Worker libraries.
 
-2. Assuming **Workers 5.0** is installed in LabVIEW, open LabVIEW and go to the **Workers Tools Menu**.
+2. Assuming **Workers 5.1** is installed in LabVIEW, open LabVIEW and go to the **Workers Tools Menu**.
 
 3. Launch the **Worker User Library** tool.
 
@@ -63,7 +63,7 @@ Please ensure your Worker is:
 
 - **Self-contained**, with no external dependencies.
 - All LabVIEW code is contained within a folder with the either your own name or the name of your business/company. This folder is to exist within the root directory. **(See current Worker User Library repository for correct folder structure).**
-- Includes a standardized **Workers 5.0 Public API** (creating using the Workers 5.0 Public API Builder tool), containing one or more of:
+- Includes a standardized **Workers 5.1 Public API** (creating using the Workers 5.1 Public API Builder tool), containing one or more of:
   - Public Requests
   - Public Requests with Replies
   - Public Responses
@@ -79,8 +79,9 @@ To contribute, simply fork the repo and submit a pull request.
 
 ## 📚 Resources
 
-- 💬 [Workers for LabVIEW Homepage](https://community.workersforlabview.io/)  
-- 🛠️ [Workers for LabVIEW GitHub Organization](https://github.com/w4lv-community)
+- [Workers for LabVIEW Homepage](https://workersforlabview.io/)  
+- [Workers for LabVIEW Community](https://community.workersforlabview.io/)  
+
 
 ---
 
